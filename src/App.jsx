@@ -9,7 +9,7 @@ import Project from "./components/Project";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div style={{ backgroundColor: "#f7ffef" }}>
+    <div style={{ backgroundColor: "#f7ffef", overflow: "hidden" }}>
       <Header />
       <Infor />
       <Divider />

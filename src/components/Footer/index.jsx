@@ -24,28 +24,38 @@ const Footer = () => {
         </center>
         <div style={{ display: "flex" }}>
           <SocialIcon style={{ flex: 1 }}>
-            <Link href="https://www.facebook.com/giahuy.6200/">
-              <FacebookOutlined style={{ fontSize: "50px", color: "blue" }} />
-              https://www.facebook.com/giahuy.6200/
+            <Link
+              href="https://www.facebook.com/giahuy.6200/"
+              style={{ textDecoration: "none" }}
+            >
+              <FacebookOutlined style={{ fontSize: "45px", color: "white" }} />
+              <span style={{ color: "white" }}>
+                https://www.facebook.com/giahuy.6200/
+              </span>
             </Link>
           </SocialIcon>
 
           <SocialIcon style={{ flex: 1 }}>
-            <Link href="https://github.com/phandogiahuy?tab=repositories">
-              <GithubOutlined style={{ fontSize: "50px" }} />
-              <span>https://github.com/phandogiahuy</span>
+            <Link
+              href="https://github.com/phandogiahuy?tab=repositories"
+              style={{ textDecoration: "none" }}
+            >
+              <GithubOutlined style={{ fontSize: "45px", color: "white" }} />
+              <span style={{ color: "white" }}>
+                https://github.com/phandogiahuy
+              </span>
             </Link>
           </SocialIcon>
           <SocialIcon style={{ flex: 1 }}>
-            <PhoneOutlined style={{ fontSize: "50px" }} />
+            <PhoneOutlined style={{ fontSize: "45px" }} />
             <span style={{ fontWeight: 600 }}>0707323959</span>
           </SocialIcon>
           <SocialIcon style={{ flex: 1 }}>
-            <MailOutlined style={{ fontSize: "50px" }} />
+            <MailOutlined style={{ fontSize: "45px" }} />
             <span style={{ fontWeight: 600 }}>phandogiahuy2000@gmail.com</span>
           </SocialIcon>
           <SocialIcon style={{ flex: 1 }}>
-            <AimOutlined style={{ fontSize: "50px" }} />
+            <AimOutlined style={{ fontSize: "45px" }} />
             <span style={{ fontWeight: 600 }}>Thu Duc City, HCM City</span>
           </SocialIcon>
         </div>

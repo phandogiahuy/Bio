@@ -40,7 +40,7 @@ const Project = () => {
   };
   return (
     <div style={{ padding: "5px  0 " }}>
-      <h1 style={{ fontSize: "50px" }}>
+      <h1 style={{ fontSize: "50px", marginLeft: "40px" }}>
         <HeatMapOutlined />
         Project
       </h1>
